@@ -9,5 +9,6 @@ package Clases;
  * @author jeffersonventura
  */
 public class Empleado {
-    
+    String codigo;
+    float sueldo;
 }
