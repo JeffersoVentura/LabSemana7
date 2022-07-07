@@ -12,7 +12,7 @@ import Clases.Seguro;
 public class Mavenproject1 {
 
     public static void main(String[] args) {
-        Cliente dato1 = new Cliente ();
+        Cliente clie = new Cliente ();
         Empleado empl = new Empleado ();
         Persona perso = new Persona ();
         Seguro segu = new Seguro ();
