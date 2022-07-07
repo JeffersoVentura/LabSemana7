@@ -11,6 +11,22 @@ package Clases;
 public class Cliente {
     private float credito;
     private int puntos;
+
+    public float getCredito() {
+        return credito;
+    }
+
+    public void setCredito(float credito) {
+        this.credito = credito;
+    }
+
+    public int getPuntos() {
+        return puntos;
+    }
+
+    public void setPuntos(int puntos) {
+        this.puntos = puntos;
+    }
     
     
 }
