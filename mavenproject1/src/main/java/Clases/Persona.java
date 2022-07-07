@@ -9,7 +9,11 @@ package Clases;
  * @author jeffersonventura
  */
 public class Persona {
-    String nombre;
-    String apellido;
-    String documento;
+    private String nombre;
+    private String apellido;
+    private String documento;
+    
+    public void datosPersona (String nombres, String apellido, String documento){
+        
+    }
 }
