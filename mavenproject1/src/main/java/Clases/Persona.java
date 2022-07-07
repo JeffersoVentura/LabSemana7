@@ -13,7 +13,9 @@ public class Persona {
     private String apellido;
     private String documento;
     
-    public void datosPersona (String nombres, String apellido, String documento){
-        
+    public void datosPersona (String nombre, String apellido, String documento){
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.documento = documento;
     }
 }
