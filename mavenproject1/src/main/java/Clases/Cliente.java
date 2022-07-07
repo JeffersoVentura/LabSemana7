@@ -9,5 +9,6 @@ package Clases;
  * @author jeffersonventura
  */
 public class Cliente {
-    
+    float credito;
+    int puntos;
 }
