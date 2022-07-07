@@ -9,9 +9,13 @@ package Clases;
  * @author jeffersonventura
  */
 public class Seguro {
-    int numero;
-    String nombre;
-    float prima;
-    double comision;
-    double cobertura;
+    private int numero;
+    private String nombre;
+    private float prima;
+    private double comision;
+    private double cobertura;
+    
+    public void registrarDatos (int numero, String nombre, float prima, double comision, double cobertura){
+        
+    }
 }
