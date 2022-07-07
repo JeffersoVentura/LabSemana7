@@ -14,7 +14,9 @@ public class Mavenproject1 {
     public static void main(String[] args) {
         Cliente clie = new Cliente ();
         Empleado empl = new Empleado ();
-        Persona perso = new Persona ();
+        Persona perso = new Persona ("Jefferson", "Ventura", "23454");
         Seguro segu = new Seguro ();
+        
+        perso.getDatos();
     }
 }
