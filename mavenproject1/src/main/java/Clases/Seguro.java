@@ -9,5 +9,9 @@ package Clases;
  * @author jeffersonventura
  */
 public class Seguro {
-    
+    int numero;
+    String nombre;
+    float prima;
+    double comision;
+    double cobertura;
 }
