@@ -1,9 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
 package jefferventu.mavenproject1;
+
+import Clases.Cliente;
+import Clases.Empleado;
+import Clases.Persona;
+import Clases.Seguro;
 
 /**
  *
@@ -12,6 +12,9 @@ package jefferventu.mavenproject1;
 public class Mavenproject1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Cliente dato1 = new Cliente ();
+        Empleado empl = new Empleado ();
+        Persona perso = new Persona ();
+        Seguro segu = new Seguro ();
     }
 }
